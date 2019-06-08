@@ -243,6 +243,8 @@ footer nav a {
     margin-bottom: 10px;
     border: 1px solid black;
     border-radius: 5px;
+    height: 25px;
+    width: 100px;
 }
 
 .about-bottom-text {
