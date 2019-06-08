@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-top: 25px;
+    color: black;
+}
+
+nav a {
+    margin-right: 45px;
+}
+
+nav a:hover {
+
+}
+
+.home-img {
+    margin-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +138,10 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +173,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-top-text {
+    border-bottom: 1px dotted black;
+    height: 130px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.about-middle-section {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.about-box {
+    border-bottom: 1px dotted black;
+    margin-top: 35px;
+    width: 370px;
+    margin-left: 10px;
+    padding-bottom: 5px; 
+}
+
+.about-middle-section h2 {
+    margin-top: 10px;
+}
+
+.about-middle-section button {
+    margin-top: 10px;
+}
+
+.about-bottom-text {
+    height: 130px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.about-bottom-nav a {
+    margin-top: -10px;
 }
